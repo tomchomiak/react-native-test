@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+include ':react-native-test'
+project(':react-native-test').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-test/android')
+
+include ':app'
